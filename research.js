@@ -13,3 +13,16 @@ if ('IntersectionObserver' in window) {
   }, { rootMargin: '-15% 0px -60% 0px', threshold: 0 });
   document.querySelectorAll('.research-topic[id]').forEach(section => observer.observe(section));
 }
+// Preserve useful links from the former long research article.
+if (document.body.classList.contains('research-overview')) {
+  const previousSections = {
+    '#principle': 'reference-quantification.html#principle',
+    '#biomarkers': 'enzyme-mediated-rna-detection.html#biomarkers',
+    '#biological': 'reference-quantification.html#biological',
+    '#comparison': 'solid-state-nanopores.html#comparison',
+    '#perspectives': 'reference-quantification.html#questions',
+    '#references': 'reference-quantification.html#references'
+  };
+  const destination = previousSections[location.hash];
+  if (destination) location.replace(destination);
+}
