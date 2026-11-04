@@ -1,0 +1,182 @@
+[
+  {
+    "file": "medchem-assets/mpro-pose.png",
+    "source": "medchem report.pdf",
+    "page": 5,
+    "figure": "Figure 6, Analogue 2 3D panel",
+    "bounds_in_108dpi_review": [
+      474,
+      405,
+      720,
+      590
+    ],
+    "resolution_dpi": 288,
+    "width": 656,
+    "height": 493,
+    "location": "MedChem overview and Mpro detail",
+    "sha256": "55af4386fd9f1c2bf65e828c63e94cf1eb158047010fb51fd65c81376e131442",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/mpro-interactions.png",
+    "source": "medchem report.pdf",
+    "page": 5,
+    "figure": "Figure 6, Analogue 2 interaction map",
+    "bounds_in_108dpi_review": [
+      195,
+      407,
+      430,
+      574
+    ],
+    "resolution_dpi": 288,
+    "width": 627,
+    "height": 446,
+    "location": "Mpro ligand evaluation",
+    "sha256": "f2a451f4a23df9492dcd60cef35c230b2f2ac6e6beac1ccf3ffed59bc1c9d425",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/mpro-designs.png",
+    "source": "medchem report.pdf",
+    "page": 1,
+    "figure": "Figure 1, panel e",
+    "bounds_in_108dpi_review": [
+      531,
+      845,
+      830,
+      922
+    ],
+    "resolution_dpi": 288,
+    "width": 797,
+    "height": 206,
+    "location": "Mpro detail: three designed analogues",
+    "sha256": "0eaaaebf1d964786e88e32df54a08f5a72106fd430416ca5657a451e92f2320f",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/mpro-redocking.png",
+    "source": "medchem report.pdf",
+    "page": 2,
+    "figure": "Figure 4",
+    "bounds_in_108dpi_review": [
+      470,
+      396,
+      834,
+      640
+    ],
+    "resolution_dpi": 288,
+    "width": 971,
+    "height": 651,
+    "location": "Mpro modelling: co-crystal/redocking overlay",
+    "sha256": "d968d6a09ead9ea5b1fa7532bfaccb04cc0fd529d4be1e6acfc2bf5fbb4e1bbf",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/mpro-proposed-route.png",
+    "source": "medchem report.pdf",
+    "page": 6,
+    "figure": "Scheme 1",
+    "bounds_in_108dpi_review": [
+      64,
+      571,
+      439,
+      737
+    ],
+    "resolution_dpi": 288,
+    "width": 1000,
+    "height": 442,
+    "location": "Mpro detail: proposed synthesis",
+    "sha256": "9e437b8a0949f5071e65b8b379efe57f76005bed494ae614c782eb2f1d218b86",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/acyl-design.png",
+    "source": "cmc lab report-3.pdf",
+    "page": 2,
+    "figure": "Figure 1",
+    "bounds_in_108dpi_review": [
+      452,
+      209,
+      833,
+      299
+    ],
+    "resolution_dpi": 288,
+    "width": 1016,
+    "height": 240,
+    "location": "MedChem overview and acyl urea design; proposed para-Cl F2",
+    "sha256": "3828bac7654300091ee85bf32ec63cb96ee941bb150071bfdce2c201d25482b4",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/acyl-meta-product.png",
+    "source": "cmc lab report-3.pdf",
+    "page": 2,
+    "figure": "Figure 2",
+    "bounds_in_108dpi_review": [
+      453,
+      387,
+      615,
+      469
+    ],
+    "resolution_dpi": 288,
+    "width": 432,
+    "height": 219,
+    "location": "Acyl urea detail: actually synthesised meta-Cl F2",
+    "sha256": "18393970c53574ee84b2ce6a5806ce8ef2767aa3e15d3cf40c3172a75712358e",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/acyl-synthesis.png",
+    "source": "cmc lab report-3.pdf",
+    "page": 3,
+    "figure": "Scheme 1",
+    "bounds_in_108dpi_review": [
+      62,
+      451,
+      832,
+      692
+    ],
+    "resolution_dpi": 288,
+    "width": 2054,
+    "height": 642,
+    "location": "Overview full-width scheme; acyl urea synthesis",
+    "sha256": "0f4de15d58b92095a3ce4fce0aae566b9edd8e2971a6a86e8960fa2b74be7461",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/acyl-acylation-mechanism.png",
+    "source": "cmc lab report-3.pdf",
+    "page": 3,
+    "figure": "Figure 4",
+    "bounds_in_108dpi_review": [
+      62,
+      789,
+      730,
+      973
+    ],
+    "resolution_dpi": 288,
+    "width": 1782,
+    "height": 491,
+    "location": "Acyl urea detail: source-proposed acylation mechanism",
+    "sha256": "20557d3776fa7503257c5987abb2818b8bf3f04231cd3d0d550f6bceec419f1a",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  },
+  {
+    "file": "medchem-assets/acyl-substitution-mechanism.png",
+    "source": "cmc lab report-3.pdf",
+    "page": 4,
+    "figure": "Figure 5",
+    "bounds_in_108dpi_review": [
+      62,
+      96,
+      797,
+      527
+    ],
+    "resolution_dpi": 288,
+    "width": 1960,
+    "height": 1149,
+    "location": "Acyl urea detail: source-proposed substitution mechanism",
+    "sha256": "1fc5e7d7f876ba744e994db784395abbd374012db30abc2d8ab4f986202aac39",
+    "modifications": "Rectangular crop only; original molecular geometry, arrows and scientific labels retained. No redrawing."
+  }
+]
