@@ -15,3 +15,7 @@ All asset paths are relative, supporting both user and project Pages sites. Goog
 ## Update content
 
 Edit `index.html` for content, `styles.css` for appearance, and `script.js` for email copying and navigation state. Replace `assets/Yihan_Li_CV_2026.pdf` when updating the CV.
+
+## Nanopore research page
+
+`nanopore.html` is the static research page. Edit scientific text and source records in `data/nanopore.json`; edit reusable page and SVG components in `tools/build_research.py`. Run `python3 tools/build_research.py` to regenerate the HTML and seven SVG figures. Styles and progressive navigation are in `research.css` and `research.js`. No runtime build step is required. Figures are conceptual, not experimental data. Source presentations stay outside this public repository.

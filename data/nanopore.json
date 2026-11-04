@@ -1,0 +1,171 @@
+{
+  "sections": [
+    {
+      "id": "principle",
+      "number": "01",
+      "label": "THE SENSING PRINCIPLE",
+      "nav": "The sensing principle",
+      "title": "A small opening.<br>A molecular signal.",
+      "lead": "A nanopore connects two electrolyte solutions through a nanoscale opening in a membrane.",
+      "body": "<div class=\"prose-columns\"><p>An applied potential drives ions through the pore. When a molecule enters, passes through or interacts with the opening, it changes ionic transport. The resulting current modulation provides a way to observe individual molecular events.</p><p>Biological pores use a protein channel in a membrane. Solid-state pores use an opening in an artificial solid membrane. Their shared electrical foundation supports different approaches to identification, quantitative sensing and biomedical research. <a class=\"cite\" href=\"#ref-1\">[1]</a> <a class=\"cite\" href=\"#ref-2\">[2]</a></p></div>",
+      "figures": [
+        [
+          "pore-comparison",
+          "Biological and solid-state nanopores, with molecular transport and conceptual current traces",
+          "<span>Figure 01</span> Two pore architectures, one electrical principle. Cross-sections are conceptual and not to scale. Every trace on this page is illustrative, not an experimental recording."
+        ]
+      ],
+      "after": "<div class=\"scope-note\"><strong>Scope of this portfolio</strong><p>My Imperial research explores DNA barcode quantification and a proposed route to RNA sensing. My Zhejiang experience connects to solid-state sensing. This page presents scientific concepts and research questions, without reporting experimental results or claiming clinical validation.</p></div>"
+    },
+    {
+      "id": "biomarkers",
+      "number": "02",
+      "label": "SCIENTIFIC MOTIVATION",
+      "nav": "Biomarkers & diagnostics",
+      "title": "The challenge of<br>rare molecular signals.",
+      "lead": "Disease development can involve changes in DNA, RNA expression and protein abundance. Detecting those changes is an analytical challenge.",
+      "body": "<div class=\"prose-columns\"><p>Liquid biopsy examines molecular biomarkers in accessible biofluids, offering minimally invasive sampling and the possibility of repeated measurements. Circulating DNA, RNA and proteins can provide complementary information about biological processes. <a class=\"cite\" href=\"#ref-3\">[3]</a></p><p>Low abundance, degradation and complex sample backgrounds can make a disease-associated signal difficult to distinguish from other molecules. A sensitive sensor must also establish what it detected and whether its readout supports a reliable concentration estimate.</p></div>",
+      "figures": [
+        [
+          "biomarker-workflow",
+          "Four stages from disease-associated molecular changes to nanopore readout",
+          "<span>Figure 02</span> Molecular recognition connects the biomarker to an interpretable readout. This is a conceptual analytical workflow, not a clinical diagnostic pathway."
+        ]
+      ],
+      "after": "<p class=\"context-note\">Early molecular detection is a research motivation. Analytical sensitivity alone does not establish screening benefit, disease specificity or clinical utility.</p>"
+    },
+    {
+      "id": "biological",
+      "number": "03",
+      "label": "BIOLOGICAL NANOPORES",
+      "nav": "Biological pores & ONT",
+      "title": "Reading DNA through<br>ionic current.",
+      "lead": "ONT sequencing couples controlled nucleic-acid movement to electrical measurement.",
+      "body": "<div class=\"prose-columns\"><p>An engineered protein pore sits within a membrane under an applied potential. A motor protein regulates DNA movement so that the electrical signal can be recorded as the strand passes through the sensing region.</p><p>Current depends on the local nucleotide context occupying the pore. Basecalling models interpret that signal as a nucleotide sequence. Matching the read to a known sequence library then allows DNA barcodes to identify distinguishable molecular reporters. <a class=\"cite\" href=\"#ref-1\">[1]</a></p></div>",
+      "figures": [
+        [
+          "ont-readout",
+          "Motor-regulated DNA transport, sequence-dependent current and basecalling",
+          "<span>Figure 03</span> Molecular transport, signal generation and sequence assignment are distinct steps. Current levels reflect local sequence context rather than independent one-base signals."
+        ]
+      ],
+      "after": "<div class=\"quiet-pair\"><div><h3>Sequence as an identifier</h3><p>A barcode is a chosen DNA sequence. A recognition probe can associate a particular target with that sequence, allowing chemically different targets to share a nucleic-acid readout. <a class=\"cite\" href=\"#ref-4\">[4]</a></p></div><div><h3>Identity is not abundance</h3><p>A correct sequence assignment tells us which reporter was read. Inferring the original target amount also requires suitable controls, calibration and an understanding of the conversion and detection steps.</p></div></div>"
+    },
+    {
+      "id": "quantification",
+      "number": "04",
+      "label": "MY IMPERIAL RESEARCH EXPLORATION",
+      "nav": "DNA barcode quantification",
+      "title": "DNA identity.<br>Quantitative interpretation.",
+      "lead": "How can sequence-encoded DNA barcodes support reliable molecular identification and quantitative analysis?",
+      "body": "<p>My MSci project investigates synthetic DNA barcodes as a quantification module. B1 is the target barcode and B3 is an internal reference supplied at a known concentration. Their different sequence regions allow separate read classification and counting.</p>",
+      "figures": [
+        [
+          "barcode-reference",
+          "B1 target and B3 reference architectures with common and barcode-specific regions",
+          "<span>Figure 04</span> Both designs contain a 15-nt common region and a 35-nt barcode-specific region. Complementary C-strands pair antiparallel to the common region, with a 3′ A overhang. Region lengths describe molecular architecture, not assay performance. The schematic does not specify library preparation."
+        ]
+      ],
+      "after": "<div class=\"formula-block\"><div><p class=\"eyebrow\">REFERENCE NORMALISATION</p><p class=\"formula\">R = N<sub>B1</sub> / N<sub>B3</sub></p><p class=\"formula\">C<sub>B1</sub> = (R / α) × C<sub>B3</sub></p></div><p>N denotes classified read counts, C denotes concentration, and α is the relative detection response factor established through calibration. The expression assumes a calibrated proportional response over the range in which it is applied.</p></div><div class=\"quiet-pair\"><div><h3>What a reference can help with</h3><p>Comparing counts within the same sequencing workflow may reduce the effect of shared changes in overall sequencing output. The ratio connects relative barcode abundance to a known reference.</p></div><div><h3>What calibration must address</h3><p>Capture, sequence context, preparation, recovery and classification can affect B1 and B3 differently. Reference normalisation does not automatically remove those effects. Reliable estimation requires controls, repeat measurements and independent validation.</p></div></div><p class=\"context-note\">The B1/B3 DNA module and the proposed RNA-to-DNA conversion are complementary research components. Calibrating DNA readout alone would not validate an RNA assay.</p>"
+    },
+    {
+      "id": "rna-recognition",
+      "number": "05",
+      "label": "PROPOSED RESEARCH STRATEGY",
+      "nav": "RNA recognition & reporters",
+      "title": "Turning RNA recognition<br>into a DNA reporter.",
+      "lead": "How could enzyme-mediated recognition convert low-abundance RNA targets into sequence-readable DNA signals?",
+      "body": "<p>The proposed strategy uses miR-21-5p as a model target. The probe separates recognition from encoding: one DNA region is complementary to the RNA, while upstream UNI and ID regions provide sequence information for identifying a reporter.</p><p class=\"attribution\">Concept and architecture informed by Minghui Qi’s supplied viva and the MSci proposal. This is a proposed research direction, not a demonstrated amplification pathway.</p>",
+      "figures": [
+        [
+          "rna-probe",
+          "Five functional regions of the 83-nt probe and the miR-21-5p target sequence",
+          "<span>Figure 05</span> Source-supported probe architecture: UNI code, ID code, LSP, complementary recognition region and anchor. The 24-nt RNA sequence matches the supplied design and miRBase MIMAT0000076. <a href=\"#ref-6\">[6]</a> LSP protection and the anchor’s experimental role require confirmation."
+        ],
+        [
+          "rna-reaction",
+          "Six-step proposed mechanism with explicit DNA–RNA antiparallel pairing and unverified RNA recycling",
+          "<span>Figure 06</span> Proposed recognition, cleavage and readout pathway. DNA runs 5′→3′ across the page and its paired RNA runs 3′→5′. Dashed DNA segments denote unspecified cleavage products, not assigned cut sites. The reporter endpoint and RNA recycling remain unverified."
+        ]
+      ],
+      "after": "<div class=\"quiet-pair\"><div><h3>Established enzyme behaviour</h3><p>Duplex DNase preferentially cleaves DNA in duplex substrates and can cleave the DNA strand of a DNA–RNA hybrid. Sequence selectivity comes from complementary probe binding, rather than target-specific recognition by the enzyme itself. <a class=\"cite\" href=\"#ref-5\">[5]</a></p></div><div><h3>Questions for the proposed assay</h3><p>Does cleavage preserve an identifiable barcode? Which products are recovered? Can released RNA bind and cleave additional probes? These questions must be resolved before describing the system as amplification.</p></div></div><details class=\"research-detail\"><summary>What connects a reporter to an RNA concentration?</summary><div><p>Reaction time, background cleavage and possible turnover affect reporter generation. Product recovery, library compatibility, sequencing and barcode classification add further response factors. Known RNA standards must pass through the complete workflow to calibrate RNA input against the measured read ratio.</p><p>Short DNA fragments are not automatically ready for ONT sequencing. The reaction must be stopped, products verified, and an appropriate adapter/motor-compatible library prepared. Reference-addition timing and any C-strand use need protocol confirmation.</p></div></details>"
+    },
+    {
+      "id": "solid-state",
+      "number": "06",
+      "label": "ZHEJIANG UNIVERSITY",
+      "nav": "Solid-state sensing",
+      "title": "Molecular events in<br>an artificial pore.",
+      "lead": "Solid-state nanopores use fabricated openings in solid membranes to study molecular transport and electrical signatures.",
+      "body": "<div class=\"prose-columns\"><p>With electrolyte on both sides and a potential across the membrane, ions pass through the opening. A molecule interacting with the pore can change the current. Event depth and duration provide features for investigating transport and molecular interactions.</p><p>Geometry, surface properties, solution conditions and molecular size, charge and conformation influence the response. Tunable pore architecture offers experimental flexibility, while fast transport, noise, adsorption and pore-to-pore variation can complicate interpretation. <a class=\"cite\" href=\"#ref-2\">[2]</a></p></div>",
+      "figures": [
+        [
+          "solid-state",
+          "Artificial membrane, electrolyte, applied voltage, molecular translocation and illustrative current blockade",
+          "<span>Figure 07</span> A generic solid-state sensing configuration. The blockade shape is illustrative. Molecular events may produce different current responses depending on the pore and solution conditions; no Zhejiang-specific material or device is implied."
+        ]
+      ],
+      "after": "<div class=\"scope-note placeholder-note\"><p class=\"eyebrow\">RESEARCH EXPERIENCE / ZHEJIANG UNIVERSITY</p><h3>Experimental context to be added</h3><p>My research experience connects to solid-state nanopore sensing. The description below will be completed with confirmed project details.</p><dl><div><dt>Experimental system</dt><dd>To be supplied: membrane, pore configuration and measurement setup.</dd></div><div><dt>Molecular target & recognition</dt><dd>To be supplied: target identity and sensing strategy.</dd></div><div><dt>My individual contribution</dt><dd>To be supplied: confirmed responsibilities and research questions.</dd></div></dl></div>"
+    },
+    {
+      "id": "comparison",
+      "number": "07",
+      "label": "COMPLEMENTARY APPROACHES",
+      "nav": "Connecting the platforms",
+      "title": "A shared foundation.<br>Different information.",
+      "lead": "Both approaches measure ionic transport at the nanoscale. What that signal can tell us depends on the pore and the assay.",
+      "body": "<div class=\"platform-comparison\"><article><div class=\"platform-line biological-line\" aria-hidden=\"true\"><span></span></div><p class=\"eyebrow\">PROTEIN CHANNEL</p><h3>Biological nanopores / ONT</h3><dl><div><dt>Structure</dt><dd>Engineered protein pore in a membrane.</dd></div><div><dt>Transport & signal</dt><dd>A motor regulates nucleic-acid movement. Sequence context modulates current.</dd></div><div><dt>Identification</dt><dd>Basecalling and sequence matching support barcode identity. Recognition probes can connect other analytes to that identity.</dd></div><div><dt>Flexibility & limits</dt><dd>Protein engineering and probe design offer selectivity. Suitable molecular constructs, library compatibility and calibration constrain the assay.</dd></div></dl></article><article><div class=\"platform-line solid-line\" aria-hidden=\"true\"><span></span></div><p class=\"eyebrow\">ARTIFICIAL APERTURE</p><h3>Solid-state nanopores</h3><dl><div><dt>Structure</dt><dd>Nanoscale opening in an artificial solid membrane.</dd></div><div><dt>Transport & signal</dt><dd>Transport and interactions produce event features such as current change and duration.</dd></div><div><dt>Identification</dt><dd>Interpretation depends on signal features and any additional recognition chemistry. A blockade alone does not provide ONT-like sequence resolution.</dd></div><div><dt>Flexibility & limits</dt><dd>Pore geometry and surface chemistry can be adjusted. Transport control, noise and nonspecific interactions remain important challenges.</dd></div></dl></article></div><p class=\"context-note\">This comparison concerns ONT-style sequencing and generic solid-state ionic-current sensing. It does not imply that all biological pores sequence DNA, or that all nanopore platforms have equivalent capabilities. <a href=\"#ref-1\">[1]</a> <a href=\"#ref-2\">[2]</a></p>",
+      "figures": [],
+      "after": ""
+    },
+    {
+      "id": "perspectives",
+      "number": "08",
+      "label": "RESEARCH PERSPECTIVES",
+      "nav": "Research perspectives",
+      "title": "The chemistry between<br>recognition and readout.",
+      "lead": "These experiences connect through a common question: what makes a molecular event interpretable?",
+      "body": "<div class=\"perspective-list\"><article><span>01</span><div><h3>Molecular recognition</h3><p>How can complementary nucleic acids or other recognition elements distinguish a target from the surrounding molecular background?</p></div></article><article><span>02</span><div><h3>Signal transduction</h3><p>How can a binding or cleavage event generate an electrical signature or a sequence-encoded reporter that retains information about the original target?</p></div></article><article><span>03</span><div><h3>Quantitative molecular detection</h3><p>How can capture, conversion, recovery and classification be characterised so that individual molecular observations support reliable concentration measurements?</p></div></article></div><p>My interest lies at this interface between chemistry, molecular biology and nanoscale measurement: understanding the steps that connect a molecular interaction to an interpretable signal.</p><details class=\"research-detail\"><summary>Broader group context: other routes to a molecular signal</summary><div><p>The supplied viva also explores binding-induced strand displacement, in which target binding changes probe pairing to release or expose a DNA barcode, and delay sensing, in which a target bound to a probe changes translocation dynamics. These are distinct from the proposed Duplex DNase conversion pathway.</p><p>Combining recognition elements for RNA, DNA and proteins could connect different biomarker classes to a common readout. These are broader research directions presented by Minghui Qi and the research group. They are not claims about my individual experimental contributions. Published barcoded-probe work provides related scientific context. <a href=\"#ref-4\">[4]</a></p></div></details>",
+      "figures": [],
+      "after": ""
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "title": "Wang et al. · Nanopore sequencing technology, bioinformatics and applications",
+      "url": "https://doi.org/10.1038/s41587-021-01108-x",
+      "detail": "Nature Biotechnology 39, 1348–1365 (2021). Biological nanopore sequencing and interpretation of electrical signals."
+    },
+    {
+      "id": 2,
+      "title": "Xue et al. · Solid-state nanopore sensors",
+      "url": "https://doi.org/10.1038/s41578-020-0229-6",
+      "detail": "Nature Reviews Materials 5, 931–951 (2020). Solid-state sensing principles, device design and limitations."
+    },
+    {
+      "id": 3,
+      "title": "Siravegna et al. · Integrating liquid biopsies into the management of cancer",
+      "url": "https://doi.org/10.1038/nrclinonc.2017.14",
+      "detail": "Nature Reviews Clinical Oncology 14, 531–548 (2017). Liquid biopsy context cited in the supplied project presentation."
+    },
+    {
+      "id": 4,
+      "title": "Koch et al. · Nanopore sequencing of DNA-barcoded probes for highly multiplexed detection of microRNA, proteins and small biomarkers",
+      "url": "https://doi.org/10.1038/s41565-023-01479-z",
+      "detail": "Nature Nanotechnology 18, 1483–1491 (2023). Published recognition-probe and barcode context; no performance results are reproduced here."
+    },
+    {
+      "id": 5,
+      "title": "New England Biolabs · Duplex DNase, M7635",
+      "url": "https://www.neb.com/en-us/products/m7635-duplex-dnase",
+      "detail": "Manufacturer evidence for preferential duplex DNA cleavage and activity on the DNA strand of DNA–RNA hybrids. It does not validate the proposed complete RNA assay."
+    },
+    {
+      "id": 6,
+      "title": "miRBase · hsa-miR-21-5p, MIMAT0000076",
+      "url": "https://www.mirbase.org/mature/MIMAT0000076",
+      "detail": "Sequence reference checked against the supplied 24-nt target design. Accessed 4 November 2026."
+    }
+  ]
+}
