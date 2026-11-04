@@ -16,7 +16,7 @@ if ('IntersectionObserver' in window) {
 // Preserve useful links from the former long research article.
 if (document.body.classList.contains('research-overview')) {
   const previousSections = {
-    '#principle': 'reference-quantification.html#principle',
+    '#principle': 'reference-quantification.html#biological',
     '#biomarkers': 'enzyme-mediated-rna-detection.html#biomarkers',
     '#biological': 'reference-quantification.html#biological',
     '#comparison': 'solid-state-nanopores.html#comparison',

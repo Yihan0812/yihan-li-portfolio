@@ -18,8 +18,8 @@ Edit `index.html` for content, `styles.css` for appearance, and `script.js` for 
 
 ## Nanopore research pages
 
-`nanopore.html` is the concise overview. The three static detail routes are `reference-quantification.html`, `enzyme-mediated-rna-detection.html` and `solid-state-nanopores.html`. The two ONT directions are parallel strategies, not sequential stages.
+The overview is `nanopore.html`. Detail pages are `reference-quantification.html`, `enzyme-mediated-rna-detection.html` and `solid-state-nanopores.html`. Research styling is confined to `research.css`; the main homepage is preserved.
 
-Scientific content and references live in `data/nanopore.json`. Reusable page layouts are in `tools/render_research.py`; overview schematics in `tools/overview_figures.py`; original detail schematics in `tools/build_research.py`. Run `python3 tools/build_research.py` to regenerate all four pages and SVGs. Styles and navigation enhancement remain in `research.css` and `research.js`. Every page works without JavaScript; legacy article hashes redirect to the relevant detail page when JavaScript is available.
+Edit content in `data/nanopore.json` and shared components in `tools/render_research.py`, then run `python3 tools/build_research.py`. The build uses Python’s standard library and reuses audited, versioned figure exports. It does not generate molecular artwork. All pages and navigation work as static HTML, with optional section highlighting and legacy hash routing in `research.js`.
 
-Overview figures have dedicated mobile compositions to keep molecular labels legible. Detailed figures support horizontal scrolling and full-size viewing. Original source presentations remain outside the public repository. No unpublished experimental results or numerical performance claims are included.
+`data/figure-audit.md` records figure decisions. `data/figure-sources.json` records source slides, export bounds, resolution and modifications. Three high-resolution PNGs were exported from editable elements in the user-supplied project presentation. The RNA mechanism is a conceptual HTML scheme; the unverified molecular drawings have been removed. No source decks or experimental datasets are included. Scientific figures preserve their full aspect ratio and can be viewed at full size; narrow viewports scroll detailed images rather than crop or compress their labels.

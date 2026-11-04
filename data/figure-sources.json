@@ -1,0 +1,67 @@
+{
+  "figures": [
+    {
+      "file": "research-assets/project-b1-b3.png",
+      "source": "User-supplied Project.pptx",
+      "slide": 9,
+      "selection_points_top_left": [
+        25,
+        110,
+        935,
+        330
+      ],
+      "export": "Native editable PowerPoint elements isolated, exported through LibreOffice PDF at 220 dpi. Crop preserves the selected complete diagram.",
+      "modifications": "Neutral/blue palette; slide furniture removed. Slide 9 also omits sequence excerpts and the experimental reference concentration.",
+      "reuse_basis": "User-requested reuse of editable diagrams in the supplied project presentation. These are not copies of embedded third-party image assets. Concept references remain credited in captions.",
+      "sha256": "69a68b30879f1127b8e8d44e954bd027caa19b381538872536f35b5ab9373dbd"
+    },
+    {
+      "file": "research-assets/project-barcode-design.png",
+      "source": "User-supplied Project.pptx",
+      "slide": 11,
+      "selection_points_top_left": [
+        25,
+        145,
+        682,
+        256
+      ],
+      "export": "Native editable PowerPoint elements isolated, exported through LibreOffice PDF at 220 dpi. Crop preserves the selected complete diagram.",
+      "modifications": "Neutral/blue palette; slide furniture removed. Slide 9 also omits sequence excerpts and the experimental reference concentration.",
+      "reuse_basis": "User-requested reuse of editable diagrams in the supplied project presentation. These are not copies of embedded third-party image assets. Concept references remain credited in captions.",
+      "sha256": "81639e20ec4fa7ab3f1e6dd398c7f37c2cfef50bbd65cbd0b0123ee22ff7ef78"
+    },
+    {
+      "file": "research-assets/project-ont-readout.png",
+      "source": "User-supplied Project.pptx",
+      "slide": 23,
+      "selection_points_top_left": [
+        475,
+        218,
+        938,
+        396
+      ],
+      "export": "Native editable PowerPoint elements isolated, exported through LibreOffice PDF at 220 dpi. Crop preserves the selected complete diagram.",
+      "modifications": "Neutral/blue palette; slide furniture removed. Slide 9 also omits sequence excerpts and the experimental reference concentration.",
+      "reuse_basis": "User-requested reuse of editable diagrams in the supplied project presentation. These are not copies of embedded third-party image assets. Concept references remain credited in captions.",
+      "sha256": "076163cc7f481e510d62adaf67e62340b3edc0bb338463142eefdb67b1ea5b96"
+    }
+  ],
+  "excluded": "Embedded review image in Project slide 7 and manufacturer images in Viva slide 25 were not reused: no explicit image reuse permission was established. Unpublished group mechanism illustrations were not copied.",
+  "rna_strategy": "An HTML conceptual scheme describes only source-supported steps. It specifies DNA cleavage within a DNA\u2013RNA hybrid; no molecular structures, strand directions, exact cleavage sites, product lengths or validated recycling are drawn.",
+  "retired": [
+    "research-assets/barcode-reference.svg",
+    "research-assets/biomarker-workflow.svg",
+    "research-assets/ont-readout.svg",
+    "research-assets/overview-quantification-mobile.svg",
+    "research-assets/overview-quantification.svg",
+    "research-assets/overview-rna-mobile.svg",
+    "research-assets/overview-rna.svg",
+    "research-assets/overview-solid-state-mobile.svg",
+    "research-assets/overview-solid-state.svg",
+    "research-assets/pore-comparison.svg",
+    "research-assets/rna-probe.svg",
+    "research-assets/rna-reaction.svg",
+    "research-assets/solid-state.svg",
+    "tools/overview_figures.py"
+  ]
+}
