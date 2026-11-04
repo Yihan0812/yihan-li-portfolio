@@ -12,13 +12,12 @@
         "status": "Current MSci research.",
         "figure": {
           "type": "image",
-          "src": "research-assets/project-b1-b3.png",
-          "alt": "B1 target and B3 internal reference DNA barcodes followed by ONT sequencing, basecalling, barcode identification and read counts.",
-          "caption": "Adapted from Yihan Li’s editable B1/B3 project schematic (slide 9); colours and labels simplified. ONT can identify and count molecules without an internal reference. Here, B1/B3 ratios are investigated to improve quantitative reliability.",
-          "min_width": 680,
-          "equation": true,
-          "width": 2781,
-          "height": 673
+          "src": "research-assets/reference-workflow.svg",
+          "width": 660,
+          "height": 550,
+          "min_width": 500,
+          "alt": "Target and reference DNA barcodes pass through ONT sequencing, identification, counting and calibrated concentration estimation.",
+          "caption": "Conceptual workflow. Relative barcode counts support concentration estimation with a known reference and suitable calibration."
         },
         "route": "reference-quantification.html"
       },
@@ -30,8 +29,13 @@
         "description": "Exploring enzyme-assisted detection of low-abundance RNA biomarkers through DNA–RNA hybridisation and Duplex DNase-mediated cleavage. This strategy investigates sequence-encoded DNA reporter generation, potential RNA recycling and signal amplification, and opportunities for multiplexed molecular detection.",
         "status": "Proposed mechanism; reporter generation and amplification remain unverified.",
         "figure": {
-          "type": "rna-concept",
-          "caption": "Conceptual, proposed strategy based on the project presentation (slides 19–23) and Minghui Qi’s viva (slide 26). No exact cleavage sites or molecular products are assigned."
+          "type": "image",
+          "src": "research-assets/rna-mechanism.svg",
+          "width": 1120,
+          "height": 760,
+          "min_width": 820,
+          "alt": "Proposed four-stage DNA probe and RNA hybrid mechanism. DNA runs 5′ to 3′, RNA binds antiparallel. Cleavage sites and reporter products remain unassigned.",
+          "caption": "Simplified from the supplied project scheme and M. Qi’s probe architecture (viva, slide 26). Dashed elements are proposed; exact cleavage sites and reporter products are unverified."
         },
         "route": "enzyme-mediated-rna-detection.html"
       },
@@ -42,10 +46,27 @@
         "institution": "Previous research · Zhejiang University",
         "description": "Exploring solid-state nanopore technologies for molecular sensing through nanoscale molecular translocation and electrical signal detection.",
         "status": "Previous research experience; project-specific details will be added when confirmed.",
-        "figure": null,
+        "figure": {
+          "type": "image",
+          "src": "research-assets/solid-state-principle.svg",
+          "width": 760,
+          "height": 355,
+          "min_width": 600,
+          "alt": "Generic solid-state nanopore cross-section and illustrative current blockade.",
+          "caption": "Established sensing principle, drawn schematically. This is not the Zhejiang experimental device or measured data."
+        },
         "route": "solid-state-nanopores.html"
       }
-    ]
+    ],
+    "intro_figure": {
+      "type": "image",
+      "src": "research-assets/research-workflow.svg",
+      "width": 1100,
+      "height": 245,
+      "min_width": 760,
+      "alt": "Biomarkers connect through molecular recognition to nanopore identity, counts and calibration.",
+      "caption": "Conceptual research framework; recognition strategies represent a research goal, not a demonstrated integrated assay."
+    }
   },
   "pages": [
     {
@@ -196,8 +217,13 @@
           "body": "<p>The intended output is a barcode-containing DNA reporter. Its sequence identity, terminal structure, length distribution, integrity and recovery must be verified. A molecular design alone does not establish that an intact, sequence-compatible reporter is produced.</p>",
           "figures": [
             {
-              "type": "rna-concept",
-              "caption": "Conceptual strategy based on Project slides 19–23 and Minghui Qi’s viva slide 26. DNA is the cleavage substrate. Reporter integrity, RNA release and repeated productive turnover require validation; no exact cleavage sites or products are assigned."
+              "type": "image",
+              "src": "research-assets/rna-mechanism.svg",
+              "width": 1120,
+              "height": 760,
+              "min_width": 820,
+              "alt": "Proposed four-stage DNA probe and RNA hybrid mechanism. DNA runs 5′ to 3′, RNA binds antiparallel. Cleavage sites and reporter products remain unassigned.",
+              "caption": "Simplified from the supplied project scheme and M. Qi’s probe architecture (viva, slide 26). Dashed elements are proposed; exact cleavage sites and reporter products are unverified."
             }
           ],
           "after": "",
@@ -279,7 +305,17 @@
           "title": "Solid-state nanopore principles",
           "lead": "Artificial apertures connect electrolyte solutions across a solid membrane.",
           "body": "<div class=\"prose-columns\"><p>With electrolyte on both sides and a potential across the membrane, ions pass through the opening. A molecule interacting with the pore can change the current. Event depth and duration provide features for investigating transport and molecular interactions.</p><p>Geometry, surface properties, solution conditions and molecular size, charge and conformation influence the response. Tunable pore architecture offers experimental flexibility, while fast transport, noise, adsorption and pore-to-pore variation can complicate interpretation. <a class=\"cite\" href=\"#ref-2\">[2]</a></p></div>",
-          "figures": [],
+          "figures": [
+            {
+              "type": "image",
+              "src": "research-assets/solid-state-principle.svg",
+              "width": 760,
+              "height": 355,
+              "min_width": 600,
+              "alt": "Generic solid-state nanopore cross-section and illustrative current blockade.",
+              "caption": "Established sensing principle, drawn schematically. This is not the Zhejiang experimental device or measured data."
+            }
+          ],
           "after": "",
           "nav": "Solid-state nanopore principles"
         },

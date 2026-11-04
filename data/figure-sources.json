@@ -44,10 +44,34 @@
       "modifications": "Neutral/blue palette; slide furniture removed. Slide 9 also omits sequence excerpts and the experimental reference concentration.",
       "reuse_basis": "User-requested reuse of editable diagrams in the supplied project presentation. These are not copies of embedded third-party image assets. Concept references remain credited in captions.",
       "sha256": "076163cc7f481e510d62adaf67e62340b3edc0bb338463142eefdb67b1ea5b96"
+    },
+    {
+      "file": "research-assets/reference-workflow.svg",
+      "source": "New conceptual SVG, authored for the portfolio; source context and limitations in figure-audit.md and figure captions.",
+      "reuse_basis": "Original vector geometry. No imported unpublished group or third-party figure.",
+      "sha256": "2d960ab979fcd0886a091a9d6f4ef95e7b3991f4bd038d5c7434fd00022a4424"
+    },
+    {
+      "file": "research-assets/research-workflow.svg",
+      "source": "New conceptual SVG, authored for the portfolio; source context and limitations in figure-audit.md and figure captions.",
+      "reuse_basis": "Original vector geometry. No imported unpublished group or third-party figure.",
+      "sha256": "38f2f66be4c196c05b3f5cc2d15c8745ace1e5642cb32b8d9848b7a6d74bc49f"
+    },
+    {
+      "file": "research-assets/rna-mechanism.svg",
+      "source": "New conceptual SVG, authored for the portfolio; source context and limitations in figure-audit.md and figure captions.",
+      "reuse_basis": "Original vector geometry. No imported unpublished group or third-party figure.",
+      "sha256": "71de478d9c605125d7690ba47e193f25c3fea1a8ba49dc7635216e4dbc236168"
+    },
+    {
+      "file": "research-assets/solid-state-principle.svg",
+      "source": "New conceptual SVG, authored for the portfolio; source context and limitations in figure-audit.md and figure captions.",
+      "reuse_basis": "Original vector geometry. No imported unpublished group or third-party figure.",
+      "sha256": "02d21218c57341b046f50540e491bfdb074a474f94b004c1ec0ceb969124a614"
     }
   ],
   "excluded": "Embedded review image in Project slide 7 and manufacturer images in Viva slide 25 were not reused: no explicit image reuse permission was established. Unpublished group mechanism illustrations were not copied.",
-  "rna_strategy": "An HTML conceptual scheme describes only source-supported steps. It specifies DNA cleavage within a DNA\u2013RNA hybrid; no molecular structures, strand directions, exact cleavage sites, product lengths or validated recycling are drawn.",
+  "rna_strategy": "Unified fixed-viewBox SVG. Antiparallel DNA/RNA architecture follows the supplied reference; no exact cleavage positions, product ends or validated recycling are assigned.",
   "retired": [
     "research-assets/barcode-reference.svg",
     "research-assets/biomarker-workflow.svg",

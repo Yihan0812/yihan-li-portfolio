@@ -4,7 +4,7 @@ import json
 
 def document(title,description,body,kind):
  return f'''<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} | Yihan Li</title><meta name="description" content="{escape(description)}"><meta name="theme-color" content="#ffffff"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="research.css"><script src="research.js" defer></script></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} | Yihan Li</title><meta name="description" content="{escape(description)}"><meta name="theme-color" content="#ffffff"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="research.css?v=figure-first-1"><script src="research.js" defer></script></head>
 <body class="research-page {kind}"><a class="skip" href="#main">Skip to content</a><header class="header wrap"><a class="wordmark" href="index.html" aria-label="Yihan Li, home">Yihan Li<span> / </span></a><nav aria-label="Main navigation"><a href="nanopore.html" aria-current="page">Research</a><a href="index.html#about">About</a><a href="index.html#contact">Contact ↗</a></nav><a class="cv-link" href="assets/Yihan_Li_CV_2026.pdf" download>Download CV ↓</a></header>
 <main id="main">{body}</main><footer class="wrap"><a class="wordmark" href="index.html">Yihan Li<span> / </span></a><a href="nanopore.html">Research overview</a><a href="#main">Back to top ↑</a></footer></body></html>'''
 
@@ -15,13 +15,13 @@ def scientific_figure(f,number=None):
   src=f['src'];alt=escape(f['alt']);w=f.get('min_width',640)
   equation='<p class="figure-equation">Relative readout: N<sub>B1</sub> / N<sub>B3</sub></p>' if f.get('equation') and number is None else ''
   return f'''<figure class="science-figure"><div class="figure-scroll" tabindex="0" role="region" aria-label="{alt}. Scroll horizontally on small screens."><img src="{src}" alt="{alt}" loading="lazy" width="{f['width']}" height="{f['height']}" style="--figure-min-width:{w}px"></div>{equation}<figcaption>{label}{f['caption']} <a class="figure-open" href="{src}" target="_blank" rel="noopener">Open full-size figure ↗</a></figcaption></figure>'''
- steps=[('Target recognition','DNA probe: RNA-recognition region and sequence-encoded reporter region.'),('DNA–RNA hybrid','Complementary target RNA binds the DNA recognition region.'),('DNA cleavage','Duplex DNase acts on DNA within the hybrid. RNA is not the cleavage substrate.'),('Proposed reporter','DNA fragments may contain a reporter. Integrity remains unverified.')]
- items=''.join(f'<li><span class="scheme-number">{i:02}</span><h3>{t}</h3><p>{b}</p></li>' for i,(t,b) in enumerate(steps,1))
- return f'''<figure class="science-figure conceptual-figure" aria-label="Conceptual RNA-recognition and DNA-cleavage strategy"><p class="scheme-status">PROPOSED STRATEGY</p><ol class="conceptual-steps">{items}</ol><p class="recycling-note"><strong>Potential RNA reuse</strong> Released RNA may participate in additional probe-cleavage reactions. Release and productive reuse remain unverified.</p><figcaption>{label}{f['caption']}</figcaption></figure>'''
+ raise ValueError('Scientific figures must be self-contained images.')
 
 def overview_entry(e):
  n=e['number'];title=escape(e['title'])
- return f'''<article class="research-entry" id="{e['id']}" aria-labelledby="entry-{n}"><header class="entry-heading"><span class="entry-number">{n}</span><div><p class="eyebrow">{escape(e['institution'])}</p><h2 id="entry-{n}">{title}</h2></div></header><div class="entry-content"><p class="entry-description">{e['description']}</p>{scientific_figure(e.get('figure'))}<div class="entry-bottom"><a class="explore-research" href="{e['route']}" aria-label="Explore Research: {title}">Explore Research <span aria-hidden="true">→</span></a><p class="research-status">{e['status']}</p></div></div></article>'''
+ heading=f'<header class="entry-heading"><span class="entry-number">{n}</span><div><p class="eyebrow">{escape(e["institution"])}</p><h2 id="entry-{n}">{title}</h2></div></header>'
+ copy=f'<div class="entry-copy">{heading}<p class="entry-description">{e["description"]}</p><a class="explore-research" href="{e["route"]}" aria-label="Explore Research: {title}">Explore Research <span aria-hidden="true">→</span></a></div>'
+ return f'<article class="research-entry direction-{n}" id="{e["id"]}" aria-labelledby="entry-{n}">{copy}{scientific_figure(e.get("figure"))}</article>'
 
 def references(page,data):
  refs=[r for r in data['references'] if r['id'] in page['refs']]
@@ -30,7 +30,7 @@ def references(page,data):
 
 def render_site(root):
  d=json.loads((root/'data/nanopore.json').read_text());o=d['overview']
- body=f'''<header class="overview-heading wrap"><a class="back-link" href="index.html#research">← Research portfolio</a><p class="eyebrow">RESEARCH</p><h1>{o['title']}</h1><p class="research-focus">{o['focus']}</p><p class="parallel-note">Two independent ONT approaches and a separate solid-state nanopore experience.</p></header><div class="overview-entries wrap">'''+''.join(overview_entry(e) for e in o['entries'])+'</div>'
+ body=f'''<header class="overview-heading wrap"><a class="back-link" href="index.html#research">← Research portfolio</a><p class="eyebrow">RESEARCH</p><h1>{o['title']}</h1><p class="research-focus">{o['focus']}</p>{scientific_figure(o['intro_figure'])}</header><div class="overview-entries wrap">'''+''.join(overview_entry(e) for e in o['entries'])+'</div>'
  (root/'nanopore.html').write_text(document(o['title'],o['focus'],body,'research-overview'))
  for page in d['pages']:
   nav=''.join(f'<a href="#{s["id"]}">{s["nav"]}</a>' for s in page['sections'])

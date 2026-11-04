@@ -18,3 +18,14 @@ Project slide 7 contains an imported sequencing image, and Viva slide 25 include
 The DNA–RNA substrate behaviour was checked against NEB’s Duplex DNase documentation. The enzyme cleaves DNA in suitable duplex substrates. This does not establish exact products, reporter integrity, RNA release, recycling, amplification or multiplexing in the proposed assay.
 
 See `figure-sources.json` for the selection bounds, export resolution and checksums. Source decks, unselected slide content and experimental datasets are outside the public repository.
+
+## Figure-first revision, 4 November 2026
+
+Four self-contained SVGs replace the overview figure presentation. All geometry, labels and arrows share a fixed viewBox; CSS only scales or scrolls the complete image. The previous text-only RNA scheme is removed.
+
+- `research-workflow.svg`: newly authored conceptual framework. No imported published/group figure or experimental claim.
+- `reference-workflow.svg`: newly authored conceptual target/reference workflow; no numbers or experimental plots. Original Project exports remain on detail pages.
+- `rna-mechanism.svg`: simplified from the user-supplied reference and Project probe scheme, cross-checked against Viva slide 26. DNA runs 5′–3′ left to right; complementary RNA runs 3′–5′ left to right. Recognition is downstream of UNI/ID/LSP and upstream of the anchor. No sequence, exact length, cleavage site, intact product or amplification outcome is assigned. Dashed elements explicitly indicate proposed products and reuse. No unpublished original figure is republished. NEB M7635 documentation confirms DNA-strand substrate behaviour only.
+- `solid-state-principle.svg`: newly authored generic cross-section and illustrative current event, not an image of the Zhejiang device or experimental data.
+
+The reference collage informs visual/scientific organisation; its multiplexed published illustration and experimental calibration plot are not reproduced. Source credits are retained in captions and detail references.
