@@ -29,3 +29,7 @@ Four self-contained SVGs replace the overview figure presentation. All geometry,
 - `solid-state-principle.svg`: newly authored generic cross-section and illustrative current event, not an image of the Zhejiang device or experimental data.
 
 The reference collage informs visual/scientific organisation; its multiplexed published illustration and experimental calibration plot are not reproduced. Source credits are retained in captions and detail references.
+
+## Tear-based solid-state research expansion
+
+`tear-fingerprinting.svg` and its mobile composition are original, unified-viewBox conceptual schematics. Both show the same six-stage approach: tear groups, solid membrane/electrolyte reservoirs under applied potential, ionic-current perturbations, collective features, overlapping illustrative feature-space points and exploratory classification. No membrane material, pore dimension, identified species, algorithm, sample count or performance is assigned. The user's supplied Zhejiang account is the source for the experience description. The five linked publications provide broader context only; proteomics and mass spectrometry are explicitly distinguished from nanopore fingerprinting. No publication artwork, patient imagery or experimental datasets are reproduced.

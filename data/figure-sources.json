@@ -68,6 +68,18 @@
       "source": "New conceptual SVG, authored for the portfolio; source context and limitations in figure-audit.md and figure captions.",
       "reuse_basis": "Original vector geometry. No imported unpublished group or third-party figure.",
       "sha256": "02d21218c57341b046f50540e491bfdb074a474f94b004c1ec0ceb969124a614"
+    },
+    {
+      "file": "research-assets/tear-fingerprinting-mobile.svg",
+      "source": "Original conceptual geometry authored for the user-specified tear nanopore workflow.",
+      "reuse_basis": "No imported publication artwork, patient photographs or experimental results.",
+      "sha256": "849fe072f61e1a3dcd5d207e96c333312236042361d1564ceaf2e413bedb0e17"
+    },
+    {
+      "file": "research-assets/tear-fingerprinting.svg",
+      "source": "Original conceptual geometry authored for the user-specified tear nanopore workflow.",
+      "reuse_basis": "No imported publication artwork, patient photographs or experimental results.",
+      "sha256": "db10e465ccfebf344ae7d941dd6eecfb260a3f75bed34f199c70f66b0ab3d4b3"
     }
   ],
   "excluded": "Embedded review image in Project slide 7 and manufacturer images in Viva slide 25 were not reused: no explicit image reuse permission was established. Unpublished group mechanism illustrations were not copied.",

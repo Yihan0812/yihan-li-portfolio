@@ -42,20 +42,22 @@
       {
         "id": "solid-state",
         "number": "03",
-        "title": "Solid-State Nanopore Sensing",
+        "title": "Solid-State Nanopore Sensing for Tear-Based Disease Fingerprinting",
         "institution": "Previous research · Zhejiang University",
-        "description": "Exploring solid-state nanopore technologies for molecular sensing through nanoscale molecular translocation and electrical signal detection.",
-        "status": "Previous research experience; project-specific details will be added when confirmed.",
+        "description": "At Zhejiang University, I explored solid-state nanopore signals from tear samples as potential molecular fingerprints for comparing dry eye disease and non-dry-eye control groups.",
+        "status": "Previous research experience · Exploratory sensing and classification",
         "figure": {
           "type": "image",
-          "src": "research-assets/solid-state-principle.svg",
-          "width": 760,
-          "height": 355,
-          "min_width": 600,
-          "alt": "Generic solid-state nanopore cross-section and illustrative current blockade.",
-          "caption": "Established sensing principle, drawn schematically. This is not the Zhejiang experimental device or measured data."
+          "src": "research-assets/tear-fingerprinting.svg?v=tear-2",
+          "mobile_src": "research-assets/tear-fingerprinting-mobile.svg?v=tear-2",
+          "width": 1220,
+          "height": 730,
+          "min_width": 0,
+          "alt": "Tear samples from dry eye disease and control groups, solid-state nanopore sensing, conceptual ionic-current signals, fingerprint features, machine learning and exploratory classification.",
+          "caption": "Conceptual research approach. Current traces and overlapping feature-space points are schematic, not experimental recordings or classification results. No signal event is assigned to a chemical species."
         },
-        "route": "solid-state-nanopores.html"
+        "route": "solid-state-nanopores.html",
+        "subtitle": "Exploring label-free molecular profiling and machine learning-assisted recognition of ocular disease."
       }
     ],
     "intro_figure": {
@@ -296,71 +298,35 @@
     },
     {
       "route": "solid-state-nanopores.html",
-      "title": "Solid-State Nanopore Sensing",
+      "title": "Solid-State Nanopore Sensing for Tear-Based Disease Fingerprinting",
       "kicker": "RESEARCH EXPERIENCE / ZHEJIANG UNIVERSITY",
-      "intro": "Established sensing principles, with space for confirmed details of my research experience.",
-      "sections": [
-        {
-          "id": "principles",
-          "title": "Solid-state nanopore principles",
-          "lead": "Artificial apertures connect electrolyte solutions across a solid membrane.",
-          "body": "<div class=\"prose-columns\"><p>With electrolyte on both sides and a potential across the membrane, ions pass through the opening. A molecule interacting with the pore can change the current. Event depth and duration provide features for investigating transport and molecular interactions.</p><p>Geometry, surface properties, solution conditions and molecular size, charge and conformation influence the response. Tunable pore architecture offers experimental flexibility, while fast transport, noise, adsorption and pore-to-pore variation can complicate interpretation. <a class=\"cite\" href=\"#ref-2\">[2]</a></p></div>",
-          "figures": [
-            {
-              "type": "image",
-              "src": "research-assets/solid-state-principle.svg",
-              "width": 760,
-              "height": 355,
-              "min_width": 600,
-              "alt": "Generic solid-state nanopore cross-section and illustrative current blockade.",
-              "caption": "Established sensing principle, drawn schematically. This is not the Zhejiang experimental device or measured data."
-            }
-          ],
-          "after": "",
-          "nav": "Solid-state nanopore principles"
-        },
-        {
-          "id": "signals",
-          "title": "Molecular translocation and current signatures",
-          "lead": "A current event reflects interactions between a molecule, the pore and its environment.",
-          "body": "<p>An applied potential drives ionic current through the pore. Molecular entry, passage or interaction can change that current. The event depth and duration provide information about transport, but their interpretation depends on molecular properties, pore geometry, surface interactions and solution conditions.</p><p>The blockade shown here is an illustrative signal rather than a measurement. Other current responses can occur under different conditions. A generic blockade does not provide the sequence-resolution capability of ONT basecalling.</p>",
-          "figures": [],
-          "after": "",
-          "nav": "Molecular translocation and current signatures"
-        },
-        {
-          "id": "applications",
-          "title": "Applications and limitations",
-          "lead": "Solid-state nanopores support investigations of molecular transport and sensing.",
-          "body": "<p>Artificial pore geometries and surfaces offer flexibility for studying nucleic acids, proteins and other molecular systems. Identification may require additional recognition chemistry or carefully characterised electrical features.</p><p>Fast transport, electrical noise, nonspecific adsorption and pore-to-pore variation can limit interpretation. A sensing event alone does not establish target identity, concentration or clinical utility. <a href=\"#ref-2\">[2]</a></p>",
-          "figures": [],
-          "after": "",
-          "nav": "Applications and limitations"
-        },
-        {
-          "id": "zhejiang",
-          "title": "Zhejiang University research experience",
-          "lead": "Project-specific details will be added here.",
-          "body": "<div class=\"scope-note placeholder-note\"><p class=\"eyebrow\">RESEARCH EXPERIENCE / ZHEJIANG UNIVERSITY</p><h3>Experimental context to be added</h3><p>My research experience connects to solid-state nanopore sensing. The description below will be completed with confirmed project details.</p><dl><div><dt>Experimental system</dt><dd>To be supplied: membrane, pore configuration and measurement setup.</dd></div><div><dt>Molecular target & recognition</dt><dd>To be supplied: target identity and sensing strategy.</dd></div><div><dt>My individual contribution</dt><dd>To be supplied: confirmed responsibilities and research questions.</dd></div></dl></div>",
-          "figures": [],
-          "after": "",
-          "nav": "Zhejiang University research experience"
-        },
-        {
-          "id": "comparison",
-          "nav": "Connecting the platforms",
-          "title": "Biological and solid-state nanopores compared",
-          "lead": "Both approaches measure ionic transport at the nanoscale. What that signal can tell us depends on the pore and the assay.",
-          "body": "<div class=\"platform-comparison\"><article><p class=\"eyebrow\">PROTEIN CHANNEL</p><h3>Biological nanopores / ONT</h3><dl><div><dt>Structure</dt><dd>Engineered protein pore in a membrane.</dd></div><div><dt>Transport & signal</dt><dd>A motor regulates nucleic-acid movement. Sequence context modulates current.</dd></div><div><dt>Identification</dt><dd>Basecalling and sequence matching support barcode identity. Recognition probes can connect other analytes to that identity.</dd></div><div><dt>Flexibility & limits</dt><dd>Protein engineering and probe design offer selectivity. Suitable molecular constructs, library compatibility and calibration constrain the assay.</dd></div></dl></article><article><p class=\"eyebrow\">ARTIFICIAL APERTURE</p><h3>Solid-state nanopores</h3><dl><div><dt>Structure</dt><dd>Nanoscale opening in an artificial solid membrane.</dd></div><div><dt>Transport & signal</dt><dd>Transport and interactions produce event features such as current change and duration.</dd></div><div><dt>Identification</dt><dd>Interpretation depends on signal features and any additional recognition chemistry. A blockade alone does not provide ONT-like sequence resolution.</dd></div><div><dt>Flexibility & limits</dt><dd>Pore geometry and surface chemistry can be adjusted. Transport control, noise and nonspecific interactions remain important challenges.</dd></div></dl></article></div><p class=\"context-note\">This comparison concerns ONT-style sequencing and generic solid-state ionic-current sensing. It does not imply that all biological pores sequence DNA, or that all nanopore platforms have equivalent capabilities. <a href=\"#ref-1\">[1]</a> <a href=\"#ref-2\">[2]</a></p>",
-          "figures": [],
-          "after": ""
-        }
-      ],
+      "intro": "Exploring label-free molecular profiling and machine learning-assisted recognition of ocular disease.",
+      "sections": [],
       "refs": [
-        1,
-        2
+        7,
+        8,
+        9,
+        10,
+        11
       ],
-      "provenance": "This page presents established scientific principles. Materials, fabrication methods, molecular targets, procedures and personal project contributions at Zhejiang University remain to be supplied."
+      "provenance": "These publications inform the scientific motivation. Their experimental methods, datasets and findings are not results of my Zhejiang nanopore project.",
+      "figure": {
+        "type": "image",
+        "src": "research-assets/tear-fingerprinting.svg?v=tear-2",
+        "mobile_src": "research-assets/tear-fingerprinting-mobile.svg?v=tear-2",
+        "width": 1220,
+        "height": 730,
+        "min_width": 0,
+        "alt": "Tear samples from dry eye disease and control groups, solid-state nanopore sensing, conceptual ionic-current signals, fingerprint features, machine learning and exploratory classification.",
+        "caption": "Conceptual research approach. Current traces and overlapping feature-space points are schematic, not experimental recordings or classification results. No signal event is assigned to a chemical species."
+      },
+      "description": [
+        "During my research experience at Zhejiang University, I explored the potential of solid-state nanopore sensing for analysing tear samples from individuals with and without dry eye disease. Rather than targeting a single predefined biomarker, the research focused on the broader molecular information contained in complex biological samples.",
+        "Solid-state nanopores provide an electrical sensing interface through which molecular interactions and translocation events can generate changes in ionic current. By examining patterns across these signals, the project explored whether disease-associated differences in tear composition could be reflected in measurable electrical fingerprints.",
+        "A particular interest was the integration of nanopore signal analysis with machine learning, using collective signal characteristics to investigate the potential for distinguishing between different sample groups. This approach reflects my broader interest in combining molecular sensing with computational analysis to study complex biological systems."
+      ],
+      "question": "Can complex nanopore signals reveal disease-associated molecular fingerprints without requiring prior identification of individual biomarkers?",
+      "connection": "This experience introduced me to the potential of combining nanoscale sensing with computational analysis, an interest that continues to inform my current research on biological nanopore-based molecular detection and quantification."
     }
   ],
   "references": [
@@ -399,6 +365,36 @@
       "title": "miRBase · hsa-miR-21-5p, MIMAT0000076",
       "url": "https://www.mirbase.org/mature/MIMAT0000076",
       "detail": "Sequence reference checked against the supplied 24-nt target design. Accessed 4 November 2026."
+    },
+    {
+      "id": 7,
+      "title": "Wolf et al. (2023) · Liquid-biopsy proteomics combined with AI identifies cellular drivers of eye aging and disease in vivo",
+      "url": "https://doi.org/10.1016/j.cell.2023.09.012",
+      "detail": "Cell 186, 4868–4884.e12. Ocular aqueous-humor proteomics and computational analysis; not tear nanopore sensing."
+    },
+    {
+      "id": 8,
+      "title": "Wolf et al. (2024) · Liquid Biopsy Proteomics in Ophthalmology",
+      "url": "https://doi.org/10.1021/acs.jproteome.3c00756",
+      "detail": "Journal of Proteome Research 23, 511–522. Broader ocular-fluid molecular profiling context."
+    },
+    {
+      "id": 9,
+      "title": "Qi et al. (2025) · A mass spectrometry-based strategy allows signature metabolite identification in tear fluid from people with diabetic cataracts",
+      "url": "https://doi.org/10.1038/s41467-025-65082-7",
+      "detail": "Nature Communications. Tear-fluid metabolomic profiling using mass spectrometry. This method identifies metabolites; nanopore current fingerprinting is a different technique."
+    },
+    {
+      "id": 10,
+      "title": "Bron et al. (2017) · TFOS DEWS II Pathophysiology Report",
+      "url": "https://doi.org/10.1016/j.jtos.2017.05.011",
+      "detail": "The Ocular Surface 15, 438–510. Dry eye disease and tear-film pathophysiology."
+    },
+    {
+      "id": 11,
+      "title": "Gijs et al. (2023) · Tear Fluid Inflammatory Proteome Analysis Highlights Similarities Between Keratoconus and Allergic Conjunctivitis",
+      "url": "https://doi.org/10.1167/iovs.64.15.9",
+      "detail": "Investigative Ophthalmology & Visual Science 64(15), 9. Tear inflammatory-protein profiling in other ocular conditions; not a dry eye nanopore study."
     }
   ]
 }
