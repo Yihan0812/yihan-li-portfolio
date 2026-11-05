@@ -1,0 +1,462 @@
+{
+  "states": [
+    {
+      "id": "P4",
+      "PP": [
+        [
+          "P1",
+          "P2"
+        ],
+        [
+          "P1",
+          "P3"
+        ],
+        [
+          "P1",
+          "P4"
+        ],
+        [
+          "P2",
+          "P3"
+        ],
+        [
+          "P2",
+          "P4"
+        ],
+        [
+          "P3",
+          "P4"
+        ]
+      ],
+      "PS": [],
+      "thiophenoxy_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "formal_charges": {},
+      "P_coordination": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "White phosphorus; established starting structure",
+      "change": "none"
+    },
+    {
+      "id": "I1",
+      "PP": [
+        [
+          "P1",
+          "P3"
+        ],
+        [
+          "P1",
+          "P4"
+        ],
+        [
+          "P2",
+          "P3"
+        ],
+        [
+          "P2",
+          "P4"
+        ],
+        [
+          "P3",
+          "P4"
+        ]
+      ],
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ]
+      ],
+      "thiophenoxy_counts": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "formal_charges": {
+        "2": -1
+      },
+      "P_coordination": [
+        3,
+        2,
+        3,
+        3
+      ],
+      "status": "Hypothetical Intermediate: anionic first-cleavage connectivity",
+      "change": "P1\u2013P2 broken; P1\u2013SPh formed; P2 bears \u22121"
+    },
+    {
+      "id": "N1",
+      "PP": [
+        [
+          "P1",
+          "P3"
+        ],
+        [
+          "P1",
+          "P4"
+        ],
+        [
+          "P2",
+          "P3"
+        ],
+        [
+          "P2",
+          "P4"
+        ],
+        [
+          "P3",
+          "P4"
+        ]
+      ],
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ]
+      ],
+      "thiophenoxy_counts": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "formal_charges": {},
+      "P_coordination": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "Hypothetical Intermediate: neutral disulfide-capture connectivity",
+      "change": "P2\u2013SPh formed; thiolate regenerated"
+    },
+    {
+      "id": "A2",
+      "PP": [
+        [
+          "P1",
+          "P4"
+        ],
+        [
+          "P2",
+          "P3"
+        ],
+        [
+          "P2",
+          "P4"
+        ],
+        [
+          "P3",
+          "P4"
+        ]
+      ],
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ]
+      ],
+      "thiophenoxy_counts": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "formal_charges": {},
+      "P_coordination": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "Candidate Pathway A: adjacent second cleavage",
+      "change": "P1\u2013P3 broken; P1\u2013SPh and P3\u2013SPh formed (net)"
+    },
+    {
+      "id": "B2",
+      "PP": [
+        [
+          "P1",
+          "P3"
+        ],
+        [
+          "P1",
+          "P4"
+        ],
+        [
+          "P2",
+          "P3"
+        ],
+        [
+          "P2",
+          "P4"
+        ]
+      ],
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P4",
+          "SPh(4a)"
+        ]
+      ],
+      "thiophenoxy_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "formal_charges": {},
+      "P_coordination": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "Candidate Pathway B: opposite second cleavage",
+      "change": "P3\u2013P4 broken; P3\u2013SPh and P4\u2013SPh formed (net)"
+    },
+    {
+      "id": "A3",
+      "PP": [
+        [
+          "P1",
+          "P4"
+        ],
+        [
+          "P2",
+          "P4"
+        ],
+        [
+          "P3",
+          "P4"
+        ]
+      ],
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P2",
+          "SPh(2b)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P3",
+          "SPh(3b)"
+        ]
+      ],
+      "thiophenoxy_counts": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "formal_charges": {},
+      "P_coordination": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "Hypothetical Intermediate: star connectivity",
+      "change": "P2\u2013P3 broken; P2\u2013SPh and P3\u2013SPh formed (net)"
+    },
+    {
+      "id": "B3",
+      "PP": [
+        [
+          "P1",
+          "P3"
+        ],
+        [
+          "P2",
+          "P3"
+        ],
+        [
+          "P2",
+          "P4"
+        ]
+      ],
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P4",
+          "SPh(4a)"
+        ],
+        [
+          "P4",
+          "SPh(4b)"
+        ]
+      ],
+      "thiophenoxy_counts": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "formal_charges": {},
+      "P_coordination": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "Hypothetical Intermediate: chain connectivity",
+      "change": "P1\u2013P4 broken; P1\u2013SPh and P4\u2013SPh formed (net)"
+    },
+    {
+      "id": "Target",
+      "PP": [],
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P1",
+          "SPh(1c)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P2",
+          "SPh(2b)"
+        ],
+        [
+          "P2",
+          "SPh(2c)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P3",
+          "SPh(3b)"
+        ],
+        [
+          "P3",
+          "SPh(3c)"
+        ],
+        [
+          "P4",
+          "SPh(4a)"
+        ],
+        [
+          "P4",
+          "SPh(4b)"
+        ],
+        [
+          "P4",
+          "SPh(4c)"
+        ]
+      ],
+      "thiophenoxy_counts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "formal_charges": {},
+      "P_coordination": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "status": "Four disconnected P(SPh)3 molecules; literature-supported target connectivity",
+      "change": "All six P\u2013P bonds replaced; 12 P\u2013S bonds total"
+    }
+  ],
+  "symmetry": {
+    "initial_P4": "All six edges equivalent; P1\u2013P2 is one representative only.",
+    "after_N1_edge_orbits": [
+      [
+        "13",
+        "14",
+        "23",
+        "24"
+      ],
+      [
+        "34"
+      ]
+    ],
+    "A3_B3": "Non-isomorphic examples (star vs chain); not an exhaustive kinetic mechanism."
+  },
+  "assumptions": [
+    "All P\u2013P and P\u2013S bonds drawn are single.",
+    "SPh groups are neutral, two-coordinate sulfur ligands (one P\u2013S and one S\u2013C bond).",
+    "Neutral P centres have three bonds and one lone pair. I1 P2 has two bonds, two lone pairs and formal charge \u22121.",
+    "The source proposes a generic thiolate/disulfide sequence. P4-specific labelled candidates are new formal connectivity hypotheses, not published intermediates or computed minima.",
+    "Initiating thiolate generation under Et3N is not assigned. Et3N is the user-specified project additive, not the KHMDS/4-chlorophenyl demonstration in Scheme 2(a)."
+  ]
+}

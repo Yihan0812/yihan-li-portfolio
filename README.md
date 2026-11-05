@@ -27,3 +27,7 @@ Edit content in `data/nanopore.json` and shared components in `tools/render_rese
 ## Medicinal chemistry research
 
 `research.html` connects the two research areas. `medchem.html` is the concise overview; `mpro-inhibitors.html` and `antileishmanial-acyl-ureas.html` contain project details. Run `python3 tools/build_medchem.py` to regenerate those pages. `medchem.css` scopes their additional styles. The original figures, extraction inventory and scientific review are recorded in `medchem-assets/`, `data/medchem-figure-inventory.json` and `data/medchem-source-review.md`. The PDF extraction helper requires the bundled pypdfium2 runtime and original local PDFs; routine HTML builds need only the versioned figure assets.
+
+## Research 03 phosphorus schemes
+
+`white-phosphorus.html` presents three editable SVGs and a prior connectivity audit. Run `python3 tools/audit_phosphorus_connectivity.py` before `python3 tools/build_phosphorus_figures.py`, then `python3 tools/build_phosphorus_page.py`. The atom-labelled candidates are formal graph hypotheses, not published intermediates, calculated minima or experimental assignments. Motif reference: Horsley Downie et al., DOI 10.1002/cssc.202401895, Scheme 2(c), CC BY 4.0.

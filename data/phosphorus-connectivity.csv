@@ -1,0 +1,9 @@
+state,P-P bonds,P-S bonds,P coordination P1-P4,formal charges,status,change
+P4,"P1–P2, P1–P3, P1–P4, P2–P3, P2–P4, P3–P4",none,"[3, 3, 3, 3]",{},White phosphorus; established starting structure,none
+I1,"P1–P3, P1–P4, P2–P3, P2–P4, P3–P4",P1–SPh(1a),"[3, 2, 3, 3]",{'2': -1},Hypothetical Intermediate: anionic first-cleavage connectivity,P1–P2 broken; P1–SPh formed; P2 bears −1
+N1,"P1–P3, P1–P4, P2–P3, P2–P4, P3–P4","P1–SPh(1a), P2–SPh(2a)","[3, 3, 3, 3]",{},Hypothetical Intermediate: neutral disulfide-capture connectivity,P2–SPh formed; thiolate regenerated
+A2,"P1–P4, P2–P3, P2–P4, P3–P4","P1–SPh(1a), P1–SPh(1b), P2–SPh(2a), P3–SPh(3a)","[3, 3, 3, 3]",{},Candidate Pathway A: adjacent second cleavage,P1–P3 broken; P1–SPh and P3–SPh formed (net)
+B2,"P1–P3, P1–P4, P2–P3, P2–P4","P1–SPh(1a), P2–SPh(2a), P3–SPh(3a), P4–SPh(4a)","[3, 3, 3, 3]",{},Candidate Pathway B: opposite second cleavage,P3–P4 broken; P3–SPh and P4–SPh formed (net)
+A3,"P1–P4, P2–P4, P3–P4","P1–SPh(1a), P1–SPh(1b), P2–SPh(2a), P2–SPh(2b), P3–SPh(3a), P3–SPh(3b)","[3, 3, 3, 3]",{},Hypothetical Intermediate: star connectivity,P2–P3 broken; P2–SPh and P3–SPh formed (net)
+B3,"P1–P3, P2–P3, P2–P4","P1–SPh(1a), P1–SPh(1b), P2–SPh(2a), P3–SPh(3a), P4–SPh(4a), P4–SPh(4b)","[3, 3, 3, 3]",{},Hypothetical Intermediate: chain connectivity,P1–P4 broken; P1–SPh and P4–SPh formed (net)
+Target,none,"P1–SPh(1a), P1–SPh(1b), P1–SPh(1c), P2–SPh(2a), P2–SPh(2b), P2–SPh(2c), P3–SPh(3a), P3–SPh(3b), P3–SPh(3c), P4–SPh(4a), P4–SPh(4b), P4–SPh(4c)","[3, 3, 3, 3]",{},Four disconnected P(SPh)3 molecules; literature-supported target connectivity,All six P–P bonds replaced; 12 P–S bonds total
