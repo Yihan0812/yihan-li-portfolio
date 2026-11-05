@@ -1,0 +1,83 @@
+{
+  "origin": "Notebook reconstruction, nine-photo corpus confirmed by user",
+  "not_a_global_atom_map": true,
+  "edges": [
+    {
+      "precursor": "P4",
+      "product": "sulfenyl-cation",
+      "source": "pp2\u20134",
+      "bond_change": "New P\u2013S bond; proposed N\u2013S cleavage, HMDS anion departure",
+      "uncertainty": "P4 sulfenylation hypothesis"
+    },
+    {
+      "precursor": "sulfenyl-cation",
+      "product": "opened",
+      "source": "p4 boxed motif",
+      "bond_change": "One P\u2013P cleavage and one additional P\u2013S bond",
+      "uncertainty": "Thiolate-capture candidate"
+    },
+    {
+      "precursor": "opened",
+      "product": "p4-a",
+      "source": "p4 (1) \u2192 a",
+      "bond_change": "One fewer P\u2013P edge and two more SPh groups in the neutral endpoint reading",
+      "uncertainty": "Alternative notebook site / cleavage choice"
+    },
+    {
+      "precursor": "opened",
+      "product": "p4-b",
+      "source": "p4 (2) \u2192 b",
+      "bond_change": "Alternative P\u2013P opening; four-membered-ring endpoint",
+      "uncertainty": "Reprojection prevents a recovered global atom map"
+    },
+    {
+      "precursor": "p4-a",
+      "product": "P1 + P3-ring",
+      "source": "p4 a \u2192 circled (1)",
+      "bond_change": "Candidate pendant-P fragmentation and P1 release",
+      "uncertainty": "Motif-level relationship; unresolved ionic steps"
+    },
+    {
+      "precursor": "p4-a",
+      "product": "unresolved-2",
+      "source": "p4 a \u2192 circled (2)",
+      "bond_change": "Additional open/branched drawing",
+      "uncertainty": "Internal edges and charge ambiguous; not redrawn"
+    },
+    {
+      "precursor": "p4-a",
+      "product": "unresolved-3",
+      "source": "p4 a \u2192 circled (3)",
+      "bond_change": "Additional open/branched drawing",
+      "uncertainty": "Internal edges and charge ambiguous; not redrawn"
+    },
+    {
+      "precursor": "p4-b",
+      "product": "P4-chain",
+      "source": "p5 b \u2192 circled (2)",
+      "bond_change": "More open multiply thiolated P4 topology reading",
+      "uncertainty": "Interpreted motif; exact atom identities unresolved"
+    },
+    {
+      "precursor": "P3-ring",
+      "product": "P3-chain",
+      "source": "pp3\u20135",
+      "bond_change": "Alternative P3 opening sketches",
+      "uncertainty": "Not a uniquely balanced elementary step"
+    },
+    {
+      "precursor": "P3-chain",
+      "product": "P1 + P2",
+      "source": "pp5\u20136",
+      "bond_change": "Smaller-fragment / P1 release possibilities",
+      "uncertainty": "Motif-level relationship; no kinetics or charge sequence established"
+    },
+    {
+      "precursor": "P2",
+      "product": "2 P1",
+      "source": "pp2,6",
+      "bond_change": "P\u2013P cleavage / sulfur transfer possibilities",
+      "uncertainty": "Distinct amide-anion and Et3N alternatives are retained in the base figure"
+    }
+  ]
+}

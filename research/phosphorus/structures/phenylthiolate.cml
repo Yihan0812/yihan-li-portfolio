@@ -1,0 +1,23 @@
+<cml xmlns="http://www.xml-cml.org/schema">
+  <molecule id="phenylthiolate" title="phenylthiolate; use candidate status for N–S species">
+    <atomArray>
+      <atom id="S1" elementType="S" formalCharge="-1" hydrogenCount="0" />
+      <atom id="Ph_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="S1 Ph_1" order="1" />
+      <bond id="b2" atomRefs2="Ph_1 Ph_2" order="2" />
+      <bond id="b3" atomRefs2="Ph_2 Ph_3" order="1" />
+      <bond id="b4" atomRefs2="Ph_3 Ph_4" order="2" />
+      <bond id="b5" atomRefs2="Ph_4 Ph_5" order="1" />
+      <bond id="b6" atomRefs2="Ph_5 Ph_6" order="2" />
+      <bond id="b7" atomRefs2="Ph_6 Ph_1" order="1" />
+    </bondArray>
+    <description>Connectivity-only editable chemical record. No 3D/optimised coordinates. Notebook candidate status and mapping limitations in reconstruction.</description>
+  </molecule>
+</cml>

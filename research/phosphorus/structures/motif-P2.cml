@@ -1,0 +1,72 @@
+<cml xmlns="http://www.xml-cml.org/schema">
+  <molecule id="motif-P2" title="Notebook motif P2; hypothetical / interpreted, local indices only">
+    <atomArray>
+      <atom id="P1" elementType="P" formalCharge="0" hydrogenCount="0" />
+      <atom id="P2" elementType="P" formalCharge="0" hydrogenCount="0" />
+      <atom id="S1_0" elementType="S" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph1_0_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph1_0_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_0_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_0_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_0_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_0_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="S1_1" elementType="S" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph1_1_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph1_1_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_1_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_1_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_1_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_1_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="S2_0" elementType="S" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph2_0_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph2_0_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_0_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_0_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_0_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_0_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="S2_1" elementType="S" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph2_1_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph2_1_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_1_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_1_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_1_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_1_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="P1 P2" order="1" />
+      <bond id="b2" atomRefs2="P1 S1_0" order="1" />
+      <bond id="b3" atomRefs2="S1_0 Ph1_0_1" order="1" />
+      <bond id="b4" atomRefs2="Ph1_0_1 Ph1_0_2" order="2" />
+      <bond id="b5" atomRefs2="Ph1_0_2 Ph1_0_3" order="1" />
+      <bond id="b6" atomRefs2="Ph1_0_3 Ph1_0_4" order="2" />
+      <bond id="b7" atomRefs2="Ph1_0_4 Ph1_0_5" order="1" />
+      <bond id="b8" atomRefs2="Ph1_0_5 Ph1_0_6" order="2" />
+      <bond id="b9" atomRefs2="Ph1_0_6 Ph1_0_1" order="1" />
+      <bond id="b10" atomRefs2="P1 S1_1" order="1" />
+      <bond id="b11" atomRefs2="S1_1 Ph1_1_1" order="1" />
+      <bond id="b12" atomRefs2="Ph1_1_1 Ph1_1_2" order="2" />
+      <bond id="b13" atomRefs2="Ph1_1_2 Ph1_1_3" order="1" />
+      <bond id="b14" atomRefs2="Ph1_1_3 Ph1_1_4" order="2" />
+      <bond id="b15" atomRefs2="Ph1_1_4 Ph1_1_5" order="1" />
+      <bond id="b16" atomRefs2="Ph1_1_5 Ph1_1_6" order="2" />
+      <bond id="b17" atomRefs2="Ph1_1_6 Ph1_1_1" order="1" />
+      <bond id="b18" atomRefs2="P2 S2_0" order="1" />
+      <bond id="b19" atomRefs2="S2_0 Ph2_0_1" order="1" />
+      <bond id="b20" atomRefs2="Ph2_0_1 Ph2_0_2" order="2" />
+      <bond id="b21" atomRefs2="Ph2_0_2 Ph2_0_3" order="1" />
+      <bond id="b22" atomRefs2="Ph2_0_3 Ph2_0_4" order="2" />
+      <bond id="b23" atomRefs2="Ph2_0_4 Ph2_0_5" order="1" />
+      <bond id="b24" atomRefs2="Ph2_0_5 Ph2_0_6" order="2" />
+      <bond id="b25" atomRefs2="Ph2_0_6 Ph2_0_1" order="1" />
+      <bond id="b26" atomRefs2="P2 S2_1" order="1" />
+      <bond id="b27" atomRefs2="S2_1 Ph2_1_1" order="1" />
+      <bond id="b28" atomRefs2="Ph2_1_1 Ph2_1_2" order="2" />
+      <bond id="b29" atomRefs2="Ph2_1_2 Ph2_1_3" order="1" />
+      <bond id="b30" atomRefs2="Ph2_1_3 Ph2_1_4" order="2" />
+      <bond id="b31" atomRefs2="Ph2_1_4 Ph2_1_5" order="1" />
+      <bond id="b32" atomRefs2="Ph2_1_5 Ph2_1_6" order="2" />
+      <bond id="b33" atomRefs2="Ph2_1_6 Ph2_1_1" order="1" />
+    </bondArray>
+    <description>Connectivity-only editable chemical record. No 3D/optimised coordinates. Notebook candidate status and mapping limitations in reconstruction.</description>
+  </molecule>
+</cml>

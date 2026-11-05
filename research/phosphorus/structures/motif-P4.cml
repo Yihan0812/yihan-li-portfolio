@@ -1,0 +1,19 @@
+<cml xmlns="http://www.xml-cml.org/schema">
+  <molecule id="motif-P4" title="Notebook motif P4; hypothetical / interpreted, local indices only">
+    <atomArray>
+      <atom id="P1" elementType="P" formalCharge="0" hydrogenCount="0" />
+      <atom id="P2" elementType="P" formalCharge="0" hydrogenCount="0" />
+      <atom id="P3" elementType="P" formalCharge="0" hydrogenCount="0" />
+      <atom id="P4" elementType="P" formalCharge="0" hydrogenCount="0" />
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="P1 P2" order="1" />
+      <bond id="b2" atomRefs2="P1 P3" order="1" />
+      <bond id="b3" atomRefs2="P1 P4" order="1" />
+      <bond id="b4" atomRefs2="P2 P3" order="1" />
+      <bond id="b5" atomRefs2="P2 P4" order="1" />
+      <bond id="b6" atomRefs2="P3 P4" order="1" />
+    </bondArray>
+    <description>Connectivity-only editable chemical record. No 3D/optimised coordinates. Notebook candidate status and mapping limitations in reconstruction.</description>
+  </molecule>
+</cml>

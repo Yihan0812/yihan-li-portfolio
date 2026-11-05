@@ -1,0 +1,38 @@
+<cml xmlns="http://www.xml-cml.org/schema">
+  <molecule id="diphenyl-disulfide" title="diphenyl-disulfide; use candidate status for N–S species">
+    <atomArray>
+      <atom id="S1" elementType="S" formalCharge="0" hydrogenCount="0" />
+      <atom id="S2" elementType="S" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph1_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph1_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph1_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph2_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph2_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="S1 S2" order="1" />
+      <bond id="b2" atomRefs2="S1 Ph1_1" order="1" />
+      <bond id="b3" atomRefs2="Ph1_1 Ph1_2" order="2" />
+      <bond id="b4" atomRefs2="Ph1_2 Ph1_3" order="1" />
+      <bond id="b5" atomRefs2="Ph1_3 Ph1_4" order="2" />
+      <bond id="b6" atomRefs2="Ph1_4 Ph1_5" order="1" />
+      <bond id="b7" atomRefs2="Ph1_5 Ph1_6" order="2" />
+      <bond id="b8" atomRefs2="Ph1_6 Ph1_1" order="1" />
+      <bond id="b9" atomRefs2="S2 Ph2_1" order="1" />
+      <bond id="b10" atomRefs2="Ph2_1 Ph2_2" order="2" />
+      <bond id="b11" atomRefs2="Ph2_2 Ph2_3" order="1" />
+      <bond id="b12" atomRefs2="Ph2_3 Ph2_4" order="2" />
+      <bond id="b13" atomRefs2="Ph2_4 Ph2_5" order="1" />
+      <bond id="b14" atomRefs2="Ph2_5 Ph2_6" order="2" />
+      <bond id="b15" atomRefs2="Ph2_6 Ph2_1" order="1" />
+    </bondArray>
+    <description>Connectivity-only editable chemical record. No 3D/optimised coordinates. Notebook candidate status and mapping limitations in reconstruction.</description>
+  </molecule>
+</cml>

@@ -1,0 +1,41 @@
+<cml xmlns="http://www.xml-cml.org/schema">
+  <molecule id="N-phenylthio-bis-trimethylsilylamine-candidate" title="N-phenylthio-bis-trimethylsilylamine-candidate; use candidate status for N–S species">
+    <atomArray>
+      <atom id="N1" elementType="N" formalCharge="0" hydrogenCount="0" />
+      <atom id="S1" elementType="S" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph_1" elementType="C" formalCharge="0" hydrogenCount="0" />
+      <atom id="Ph_2" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_3" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_4" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_5" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Ph_6" elementType="C" formalCharge="0" hydrogenCount="1" />
+      <atom id="Si0" elementType="Si" formalCharge="0" hydrogenCount="0" />
+      <atom id="C0_0" elementType="C" formalCharge="0" hydrogenCount="3" />
+      <atom id="C0_1" elementType="C" formalCharge="0" hydrogenCount="3" />
+      <atom id="C0_2" elementType="C" formalCharge="0" hydrogenCount="3" />
+      <atom id="Si1" elementType="Si" formalCharge="0" hydrogenCount="0" />
+      <atom id="C1_0" elementType="C" formalCharge="0" hydrogenCount="3" />
+      <atom id="C1_1" elementType="C" formalCharge="0" hydrogenCount="3" />
+      <atom id="C1_2" elementType="C" formalCharge="0" hydrogenCount="3" />
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="N1 S1" order="1" />
+      <bond id="b2" atomRefs2="S1 Ph_1" order="1" />
+      <bond id="b3" atomRefs2="Ph_1 Ph_2" order="2" />
+      <bond id="b4" atomRefs2="Ph_2 Ph_3" order="1" />
+      <bond id="b5" atomRefs2="Ph_3 Ph_4" order="2" />
+      <bond id="b6" atomRefs2="Ph_4 Ph_5" order="1" />
+      <bond id="b7" atomRefs2="Ph_5 Ph_6" order="2" />
+      <bond id="b8" atomRefs2="Ph_6 Ph_1" order="1" />
+      <bond id="b9" atomRefs2="N1 Si0" order="1" />
+      <bond id="b10" atomRefs2="Si0 C0_0" order="1" />
+      <bond id="b11" atomRefs2="Si0 C0_1" order="1" />
+      <bond id="b12" atomRefs2="Si0 C0_2" order="1" />
+      <bond id="b13" atomRefs2="N1 Si1" order="1" />
+      <bond id="b14" atomRefs2="Si1 C1_0" order="1" />
+      <bond id="b15" atomRefs2="Si1 C1_1" order="1" />
+      <bond id="b16" atomRefs2="Si1 C1_2" order="1" />
+    </bondArray>
+    <description>Connectivity-only editable chemical record. No 3D/optimised coordinates. Notebook candidate status and mapping limitations in reconstruction.</description>
+  </molecule>
+</cml>

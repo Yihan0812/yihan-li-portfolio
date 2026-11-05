@@ -1,0 +1,360 @@
+{
+  "policy": "Local vertex indices are editorial graph bookkeeping only, not recovered notebook atom mapping. All motifs are hypotheses, not verified intermediates.",
+  "models": {
+    "P4": {
+      "PP": [
+        "12",
+        "13",
+        "14",
+        "23",
+        "24",
+        "34"
+      ],
+      "S": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": {},
+      "source": "p4 initial; established P4 structure",
+      "PS": [],
+      "coordination": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "sulfenyl-cation": {
+      "PP": [
+        "12",
+        "13",
+        "14",
+        "23",
+        "24",
+        "34"
+      ],
+      "S": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "q": {
+        "3": 1
+      },
+      "source": "pp2\u20134: proposed electrophilic sulfur transfer",
+      "PS": [
+        [
+          "P3",
+          "SPh(3a)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    "opened": {
+      "PP": [
+        "12",
+        "14",
+        "23",
+        "24",
+        "34"
+      ],
+      "S": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "q": {},
+      "source": "p4 boxed opened P4 motif",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "p4-a": {
+      "PP": [
+        "12",
+        "14",
+        "23",
+        "24"
+      ],
+      "S": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "q": {},
+      "source": "p4 (1) / a; triangle + pendant motif",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P3",
+          "SPh(3b)"
+        ],
+        [
+          "P4",
+          "SPh(4a)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "p4-b": {
+      "PP": [
+        "12",
+        "14",
+        "23",
+        "34"
+      ],
+      "S": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "q": {},
+      "source": "p4 (2) / b; four-membered ring, reprojected",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P4",
+          "SPh(4a)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "P4-chain": {
+      "PP": [
+        "12",
+        "23",
+        "34"
+      ],
+      "S": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "q": {},
+      "source": "p5 b \u2192 circled (2): interpreted open P4 motif; atom mapping unresolved",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P4",
+          "SPh(4a)"
+        ],
+        [
+          "P4",
+          "SPh(4b)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "P3-ring": {
+      "PP": [
+        "12",
+        "13",
+        "23"
+      ],
+      "S": [
+        1,
+        1,
+        1
+      ],
+      "q": {},
+      "source": "pp3\u20135 later P3 ring motif",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3,
+        3
+      ]
+    },
+    "P3-chain": {
+      "PP": [
+        "12",
+        "23"
+      ],
+      "S": [
+        2,
+        1,
+        2
+      ],
+      "q": {},
+      "source": "pp3\u20135 later open P3 motif",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P3",
+          "SPh(3a)"
+        ],
+        [
+          "P3",
+          "SPh(3b)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3,
+        3
+      ]
+    },
+    "P2": {
+      "PP": [
+        "12"
+      ],
+      "S": [
+        2,
+        2
+      ],
+      "q": {},
+      "source": "pp1\u20132 route 1; p6 P2 cleavage candidate",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P2",
+          "SPh(2a)"
+        ],
+        [
+          "P2",
+          "SPh(2b)"
+        ]
+      ],
+      "coordination": [
+        3,
+        3
+      ]
+    },
+    "P1": {
+      "PP": [],
+      "S": [
+        3
+      ],
+      "q": {},
+      "source": "literature target / notebook proposed P1 release",
+      "PS": [
+        [
+          "P1",
+          "SPh(1a)"
+        ],
+        [
+          "P1",
+          "SPh(1b)"
+        ],
+        [
+          "P1",
+          "SPh(1c)"
+        ]
+      ],
+      "coordination": [
+        3
+      ]
+    }
+  },
+  "unresolved": [
+    "p4 a circled (2)/(3) internal edges",
+    "crossed-out N\u2013S-retaining P4 adduct",
+    "p7 direct-base P4 charge localisation",
+    "p8 Lewis-pair/trap reagent",
+    "p9 potassium formula"
+  ]
+}
